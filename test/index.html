@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+
+    <script src="main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <button id="form1" onclick="newTitle()">aaaaa</button>
+    </div>
+
+    <script>
+      var newTitle = window.open(
+        "/CarApp/jasperservlet?x__RepName=chapter1",
+        "_blank"
+      );
+      newTitle.document.title = "aaaaaaa222222222a.pdf";
+    </script>
+  </body>
+</html>
